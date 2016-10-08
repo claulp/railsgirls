@@ -4,6 +4,7 @@ class IdeasController < ApplicationController
   # GET /ideas
   # GET /ideas.json
   def index
+    # Set all ideas
     @ideas = Idea.all
   end
 
